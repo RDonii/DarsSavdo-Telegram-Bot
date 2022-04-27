@@ -9,6 +9,7 @@ from keyboards.default.dasturlashKeyboards import dasturlash
 from keyboards.default.tilKeyboards import tilKurslari
 from keyboards.default.menuKeyboards import menu
 
+
 @dp.message_handler(Text(equals='Menu'), state='*')
 async def main_menu(message: types.Message):
     await message.answer('Kategoriyalardan birini tanlang!', reply_markup=menu)
