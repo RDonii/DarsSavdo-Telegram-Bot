@@ -5,4 +5,5 @@ from . import menu
 from . import dasturlash
 from . import pythonMenu
 from . import tilKurslari
+from . import productCallbacks
 from . import echo
